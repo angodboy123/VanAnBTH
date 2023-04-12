@@ -26,6 +26,7 @@ namespace BTH19_03.Controllers
         [HttpPost]
 
         public async Task<IActionResult> Create(Student std)
+        
         {
             if(ModelState.IsValid)
             {
